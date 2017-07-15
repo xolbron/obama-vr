@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Jerome Foster II
+        </title>
+        <script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+             <a-assets>
+    <video id="obama-vid" autoplay="true
+    " loop="false" src="First look at the Obama Presidential Center.mp4"></video>
+  </a-assets>
+  <a-video src="#obama-vid" width="39" height="22" position="0 1 -15"></a-video>
+             <a-image position="-8 1 0" rotation="0 90 0"  scale="3 3 3" src="1024px-Obama_logomark.svg.png"></a-image>
+              <a-image position="8 1 0" rotation="0 -90 0"  scale="3 3 3" src="1024px-Obama_logomark.svg.png"></a-image>
+               <a-image position="0 3 -14.5" rotation="0 0 0"  scale="6 6 6" src="1024px-Obama_logomark.svg.png"><a-animation attribute="opacity"
+               from="0"
+               to="1"
+               dur="59000"
+               fill="forwards"
+               repeat="indefinite"></a-animation>
+               <a-animation attribute="position"
+               from="0 4 3000"
+               to="0 4 -14.5"
+               dur="61000"
+               fill="forwards"
+               repeat="1"></a-animation></a-image>
+               
+                <a-image position="3 1 6" rotation="0 210 0" width="7" height="6" src="download.jpg"></a-image>
+               <a-image position="-5 1 5.5" rotation="0 -210 0" width="7" height="6" src="Barack_Obama_family_portrait_2011.jpg"></a-image>
+            <a-sky color="black"></a-sky>
+        </a-scene>
+    </body>
+</html>
